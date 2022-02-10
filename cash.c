@@ -42,7 +42,7 @@ int get_cents(void)
     do
     {
         owed = get_int("What's the owed amount?: ");
-    } while (owed < 1);
+    } while (owed < 0);
     return owed;
 }
 
