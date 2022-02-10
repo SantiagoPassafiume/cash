@@ -53,8 +53,7 @@ int calculate_quarters(int cents)
 
 int calculate_dimes(int cents)
 {
-    // TODO
-    return 0;
+    return cents / 10;
 }
 
 int calculate_nickels(int cents)
